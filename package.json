@@ -1,0 +1,20 @@
+{
+  "name": "avatar-creator",
+  "version": "1.0.0",
+  "description": "A service that generates user avatars from name",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  }
+}
